@@ -1,0 +1,30 @@
+{
+  "name": "devops-1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "echo 'Build step (à adapter)'",
+    "lint": "eslint .",
+    "test": "jest",
+    "test:e2e": "playwright test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Damien610/Devops-1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Damien610/Devops-1/issues"
+  },
+  "homepage": "https://github.com/Damien610/Devops-1#readme",
+  "keywords": [],
+  "description": "",
+  "devDependencies": {
+    "@eslint/js": "^9.29.0",
+    "eslint": "^9.29.0",
+    "eslint-plugin-react": "^7.37.5",
+    "globals": "^16.2.0"
+  }
+}
