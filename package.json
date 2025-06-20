@@ -6,8 +6,8 @@
     "build": "echo 'no build step yet'",
     "lint": "eslint .",
     "test": "jest",
-    "test:e2e": "playwright test tests-e2e",
-    "start": "serve public"
+    "start": "serve public",
+    "test:e2e": "playwright test tests-e2e"
   },
   "repository": {
     "type": "git",

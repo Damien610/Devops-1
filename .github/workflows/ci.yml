@@ -31,6 +31,11 @@ jobs:
 
       - name: Install Playwright browsers
         run: npx playwright install --with-deps
+      
+      - name: Start local web server
+        run: |
+          npx serve public -l 3000 &
+          sleep 3
 
       - name: Run E2E tests
         run: npm run test:e2e
