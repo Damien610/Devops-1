@@ -4,11 +4,12 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "build": "echo 'Build step (à adapter)'",
-    "lint": "eslint .",
-    "test": "jest",
-    "test:e2e": "playwright test"
-  },
+  "build": "echo 'no build step yet'", // ou une vraie commande si applicable
+  "lint": "eslint .",
+  "test": "jest",
+  "test:e2e": "playwright test"
+  }, 
+
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Damien610/Devops-1.git"
