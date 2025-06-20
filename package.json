@@ -4,10 +4,10 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "build": "echo 'no build step yet'"
-    "lint": "eslint .",
-    "test": "jest",
-    "test:e2e": "playwright test"
+  "build": "echo 'no build step yet'",
+  "lint": "eslint .",
+  "test": "jest",
+  "test:e2e": "playwright test"
   }, 
 
   "repository": {
