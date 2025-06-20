@@ -1,6 +1,6 @@
 /* eslint-disable no-undef */
 
-const sum = require('../sum');
+const sum = require('../public/sum');
 
 
 describe('sum()', () => {
