@@ -1,7 +1,5 @@
 /* eslint-disable no-undef */
-
-const sum = require('../public/sum');
-
+const sum = require('../sum'); // ou '../dist/sum' si tu veux tester le build
 
 describe('sum()', () => {
   test('adds 2 + 3 to equal 5', () => {
