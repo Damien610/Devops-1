@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "build": "echo 'no build step yet'",
+    "build": "babel public --out-dir dist",
     "lint": "eslint .",
     "test": "jest",
     "start": "serve public",

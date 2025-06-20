@@ -1,6 +1,6 @@
 /* eslint-disable no-undef */
 
 module.exports = {
-    testPathIgnorePatterns: ['/node_modules/', '/tests-e2e/'],
+    testPathIgnorePatterns: ['/node_modules/', '/tests-e2e/', '.babelrc.js'],
   };
   
