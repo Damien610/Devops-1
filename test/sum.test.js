@@ -1,4 +1,5 @@
-import sum from '../sum.js';
+// eslint-disable-next-line no-undef
+const sum = require('../sum');
 
 console.log('Résultat :', sum(2, 3)); // Optionnel, juste pour tester manuellement
 
